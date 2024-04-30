@@ -24,7 +24,7 @@ y1 = -L1 * np.cos(theta1_vals)
 x2 = x1 + L2 * np.sin(theta2_vals)
 y2 = y1 - L2 * np.cos(theta2_vals)
 fig, ax = plt.subplots()
-ax.set_aspect("equal"
+ax.set_aspect("equal")
 ax.set_xlim(-2.5, 2.5)
 ax.set_ylim(-2.5, 2.5)
 line, = ax.plot([], [], lw=2)
