@@ -6,8 +6,8 @@ G = 9.81 # m/s^2
 L = 1.0 # length of the pendulum
 NPOINTS = 100
 NFRAMES = 100
-theta_range = np.linspace(-2*np.pi, 2*np.pi, NPOINTS)
-p_range = np.linspace(-3, 3, NPOINTS)
+theta_range = np.linspace(-2*np.pi, 2*np.pi, NPOINTS) # initial theta values
+p_range = np.linspace(-3, 3, NPOINTS) # initial momentum values
 theta_space, p_space = np.meshgrid(theta_range, p_range)
 
 def hamiltonian(theta, p):
